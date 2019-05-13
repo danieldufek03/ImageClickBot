@@ -28,9 +28,9 @@ def findImages():
     filename = 'images\\' + str(index) + '.png'
     print(filename)
     while(os.path.exists(filename)):
-        filename = 'images\\' + str(index) + '.png'
         print(filename)
         searchAndClick(filename)
+        filename = 'images\\' + str(index) + '.png'
         index = index + 1
 
 # finds if any of the images are on the screen and returns the filename
