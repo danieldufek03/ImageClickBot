@@ -41,7 +41,7 @@ def findImagesOR():
 def main():
     try:
         findImages()
-    except KyeboardInterrupt:
+    except KeyboardInterrupt:
         print('Exiting Main Loop')
 
 if __name__ == '__main__':
